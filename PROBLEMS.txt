@@ -1,0 +1,68 @@
+---SEARCH---
+Find a triplet from three linked lists with sum equal to a given number
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+---DELETE---
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+---REVERSE---
+Reverse a linked list
+Recursive function to print reverse of a Linked List
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+---REMOVE---
+Given a linked list of line segments, remove middle points
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+---SORT---
+Merge Sort for Linked Lists
+Sort a linked list that is sorted alternating ascending and descending orders
+Sort linked list which is already sorted on absolute values
+Merge two sorted linked lists
+Merge two sorted linked lists such that merged list is in reverse order
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+--MERGE---
+Merge K sorted linked lists | Set 1
+Merge K sorted linked lists | Set 2
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+---REARRANGE---
+Rearrange a given linked list in-place
+Segregate even and odd nodes in a Linked List
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+---MISC1---
+Point to next higher value node in a linked list with an arbitrary pointer
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+---MISC2---
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+---MISC3---
+Add two numbers represented by linked lists | Set 1
+Add two numbers represented by linked lists | Set 2
+Flattening a Linked List
+Flatten a multilevel linked list
+Rotate Linked List block wise
+----------------------------------------------------------
+----------------------------------------------------------
+

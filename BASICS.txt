@@ -1,0 +1,57 @@
+------------------------
+===SINGLE LINKED LIST===
+------------------------
+Like arrays, SLL is a linear data structure.
+Unlike arrays, SLL elements are not stored at contiguous location, rather linked using pointers.
+
+DRAWBACKS OF ARRAY
+> size of the array is fixed
+> size of the array should be known at the beginning
+> Insert/Delete operation is costly (shifting is required after insert/delete)
+
+ADVANTAGES OF SLL
+> dynamic size
+> Easy Insert/Delete
+
+DRAWBACKS OF SLL
+> No random access (binary search is not possible)
+> extra memory space for pointer
+
+
+
+
+------------------------
+===DOUBLE LINKED LIST===
+------------------------
+It contains an extra pointer, called previous pointer, along with next pointer and data 
+	which are there in singly linked list.
+
+ADVANTAGES OF DLL
+> traverse in both forward and backward direction
+> The delete operation in DLL is more efficient if pointer to the node to be deleted is given
+
+DRAWBACKS OF DLL
+> Every node of DLL Require extra space for an previous pointer
+> All operations require an extra pointer previous to be maintained
+
+
+
+
+--------------------------
+===CIRCULAR LINKED LIST===
+--------------------------
+Here all nodes are connected to form a circle.
+There is no NULL at the end.
+A CLL can be a singly CLL or doubly CLL.
+
+ADVANTAGES OF CLL
+> Any node can be a starting point.
+	We can traverse the whole list by starting from any point.
+	We just need to stop when the first visited node is visited again.
+> Useful for implementation of queue.
+> CLL are useful in applications to repeatedly go around the list.
+> Doubly CLL are used for implementation of advanced data structures like Fibonacci Heap.
+
+
+
+

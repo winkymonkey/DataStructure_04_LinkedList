@@ -26,7 +26,7 @@ public class A03_removeMiddleFrom_linkedListOfLineSegments {
 	 * }
 	 * 
 	 * 
-	 * while(node!=null){
+	 * while (node!=null) {
 	 * 		if (node.data2 == node.next.data2)
 	 * 			go forward
 	 * 			starting node's next should point to last element of this sequence

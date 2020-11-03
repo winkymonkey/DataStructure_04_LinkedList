@@ -16,8 +16,8 @@ public class A04_rearrange_zigzag {
 	/*
 	 * flag=true
 	 * 
-	 * if(flag){
-	 * 		if(rightNode.data > currentNode.data)
+	 * if (flag) {
+	 * 		if (rightNode.data > currentNode.data)
 	 * 			//it's fine
 	 * 		else {
 	 * 			//swap two nodes
@@ -25,7 +25,7 @@ public class A04_rearrange_zigzag {
 	 * 		}
 	 * }
 	 * else {
-	 * 		if(rightNode.data < currentNode.data)
+	 * 		if (rightNode.data < currentNode.data)
 	 * 			//it's fine
 	 * 		else {
 	 * 			//swap two nodes

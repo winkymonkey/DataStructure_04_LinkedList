@@ -26,7 +26,7 @@ public class A01_sortList_thatIsAlternatingAscendingDescending {
 	 * 	put every odd positioned (which are ascending) in a Queue	(10,53,67,89)
 	 *  put every even positioned (which are descending) in a Stack	(12,43,67)
 	 * 
-	 * while(stack or queue is not empty) {
+	 * while (stack or queue is not empty) {
 	 * 	if (Queue's first element < Stack's top)
 	 * 		//add Queue's first element to list
 	 * 		//remove element from Queue

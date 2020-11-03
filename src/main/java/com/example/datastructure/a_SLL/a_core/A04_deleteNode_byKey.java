@@ -4,19 +4,13 @@ import com.example.datastructure.a_SLL.MyLinkedList;
 import com.example.datastructure.a_SLL.MyLinkedList.Node;
 
 
-public class A02_insertNode {
+public class A04_deleteNode_byKey {
 	
 	public static void main(String[] args) {
 		MyLinkedList list = createLinkedList();
 		print(list.head);
 		
-		insertAtFront(list, 25);
-		print(list.head);
-		
-		insertAfterGivenNode(list.head.next.next, 50);
-		print(list.head);
-		
-		insertAtEnd(list, 99);
+		deleteNodeByKey(list, 5);
 		print(list.head);
 	}
 	
@@ -42,38 +36,18 @@ public class A02_insertNode {
 		}
 		System.out.println();
 	}
+
 	
 	
 	
 	
 	
-	
-	
-	private static void insertAtFront(MyLinkedList list, int newKey) {
-		Node newHead = new Node(newKey);
-		newHead.next = list.head;
-		list.head = newHead;
-	}
-	
-	private static void insertAfterGivenNode(Node refNode, int newKey) {
-		if (refNode==null)
-			System.out.println("reference node cannot be null");
-		else {
-			Node tmpNode = refNode.next;
-			
-			Node newNode = new Node(newKey);
-			refNode.next = newNode;
-			newNode.next = tmpNode;
-		}
-	}
-	
-	private static void insertAtEnd(MyLinkedList list, int newKey) {
+	private static void deleteNodeByKey(MyLinkedList list, int key) {
 		Node n = list.head;
-		while (n.next!=null) {
-			n = n.next;
+		while (n != null && n.next.data!=key) {
+			n = n.next;								//it will stop at node having key=4
 		}
-		Node newNode = new Node(newKey);
-		n.next = newNode;
+		n.next = n.next.next;
 	}
 	
 }

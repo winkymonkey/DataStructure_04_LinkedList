@@ -1,11 +1,14 @@
 package com.example.datastructure.a_SLL.a_core;
 
-import com.example.datastructure.a_SLL.a_core.MyLinkedList.Node;
+import com.example.datastructure.a_SLL.MyLinkedList;
+import com.example.datastructure.a_SLL.MyLinkedList.Node;
+
 
 public class A01_createAndTraverse {
-	public static void main(String[] args){
+	
+	public static void main(String[] args) {
 		MyLinkedList list = createLinkedList();
-		printLinkedList(list);
+		print(list.head);
 	}
 	
 	
@@ -23,12 +26,12 @@ public class A01_createAndTraverse {
 	}
 	
 	
-	private static void printLinkedList(MyLinkedList list) {
-		Node n = list.head;
-		while(null != n) {
+	private static void print(Node n) {
+		while (n != null) {
 			System.out.print(n.data + " ");
 			n = n.next;
 		}
 		System.out.println();
 	}
+	
 }

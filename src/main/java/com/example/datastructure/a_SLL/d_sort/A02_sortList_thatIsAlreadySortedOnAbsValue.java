@@ -27,7 +27,7 @@ public class A02_sortList_thatIsAlreadySortedOnAbsValue {
 	 * ------------------------
 	 * An important observation is, all negative elements are present in reverse order.
 	 * Traverse the list {
-	 * 	if(we find an element that is out of order) {
+	 * 	if (we find an element that is out of order) {
 	 * 		we move it to the front of linked list.
 	 * 	}
 	 * }

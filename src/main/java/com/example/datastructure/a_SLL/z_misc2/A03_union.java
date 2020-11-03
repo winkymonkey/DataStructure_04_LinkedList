@@ -17,8 +17,8 @@ public class A03_union {
 	 * p2 will traverse list2
 	 * p3 will traverse newList
 	 * 
-	 * while(p1!=null && p2!=null) {
-	 * 		if(p1->data == p2->data)
+	 * while (p1!=null && p2!=null) {
+	 * 		if (p1->data == p2->data)
 	 * 			//add this node in newList and p3=p3.next
 	 * 		else {
 	 * 			//add both p1, p2 node in newList and p3=p3.next.next

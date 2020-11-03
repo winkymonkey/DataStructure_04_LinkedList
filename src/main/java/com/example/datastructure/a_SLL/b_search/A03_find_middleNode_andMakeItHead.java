@@ -16,7 +16,7 @@ public class A03_find_middleNode_andMakeItHead {
 	/*
 	 * p0, p1, p2 all points to head
 	 * 
-	 * while(p2!=null && p2.next!=null) {
+	 * while (p2!=null && p2.next!=null) {
 	 * 		p0 = p1;
 	 * 		p1 = p1.next;
 	 * 		p2 = p2.next.next;

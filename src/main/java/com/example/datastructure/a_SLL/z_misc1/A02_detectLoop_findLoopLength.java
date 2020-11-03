@@ -17,7 +17,7 @@ public class A02_detectLoop_findLoopLength {
 	 * 		boolean visited;
 	 * 		Node next;
 	 * 		
-	 * 		Node(int data){
+	 * 		Node(int data) {
 	 * 			this.data = data;
 	 * 		}
 	 * }
@@ -33,11 +33,11 @@ public class A02_detectLoop_findLoopLength {
 	 * Node node = head;
 	 * count=1;
 	 * loopLength=0;
-	 * while(node!=null) {
+	 * while (node!=null) {
 	 * 		node.visited = true;
 	 * 		node.count = count;
 	 * 		count++;
-	 * 		if(node.next!=null && node.next.visited) {
+	 * 		if (node.next!=null && node.next.visited) {
 	 * 			//it's a loop
 	 * 			loopLength = (node.count - node.next.count);
 	 * 		}

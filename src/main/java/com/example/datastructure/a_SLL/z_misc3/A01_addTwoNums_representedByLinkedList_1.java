@@ -14,7 +14,7 @@ public class A01_addTwoNums_representedByLinkedList_1 {
 	/*
 	 * num1 = 0
 	 * power = 0
-	 * while(node!=null) {
+	 * while (node!=null) {
 	 * 		num1 = num1 + (node.data * 10^power)
 	 * 		power++;
 	 * 		node = node.next;
@@ -22,14 +22,14 @@ public class A01_addTwoNums_representedByLinkedList_1 {
 	 * 
 	 * num2 = 0
 	 * power = 0
-	 * while(node!=null) {
+	 * while (node!=null) {
 	 * 		num2 = num2 + (node.data * 10^power)
 	 * 		power++;
 	 * 		node = node.next;
 	 * }
 	 * 
 	 * sum = num1+num2;
-	 * while(node!=null) {
+	 * while (node!=null) {
 	 * 		node.data = sum%10;
 	 * 		sum = sum/10;
 	 * 		node = node.next;

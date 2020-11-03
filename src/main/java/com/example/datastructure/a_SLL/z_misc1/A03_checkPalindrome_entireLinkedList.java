@@ -14,7 +14,7 @@ public class A03_checkPalindrome_entireLinkedList {
 	 * push (node.data) into stack
 	 * 
 	 * Traverse the list again
-	 * if(stack.top == node.data)
+	 * if (stack.top == node.data)
 	 * 	 pop stack.top
 	 * 	 top--
 	 * else

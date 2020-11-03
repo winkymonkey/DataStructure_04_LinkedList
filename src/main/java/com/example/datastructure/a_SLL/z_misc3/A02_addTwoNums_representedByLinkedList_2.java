@@ -15,8 +15,8 @@ public class A02_addTwoNums_representedByLinkedList_2 {
 	 * num1 = 0;
 	 * power = 0;
 	 * 
-	 * public int calculate(node){
-	 * 		if(node.next==null)
+	 * public int calculate(node) {
+	 * 		if (node.next==null)
 	 * 			return;
 	 * 		else {
 	 * 			calculate(node.next);

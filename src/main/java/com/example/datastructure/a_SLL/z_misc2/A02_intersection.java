@@ -17,11 +17,11 @@ public class A02_intersection {
 	 * p2 will traverse list2
 	 * p3 will traverse newList
 	 * 
-	 * while(p1!=null && p2!=null) {
-	 * 		if(p1->data == p2->data)
+	 * while (p1!=null && p2!=null) {
+	 * 		if (p1->data == p2->data)
 	 * 			//add this node in newList and p3=p3.next
 	 * 		else {
-	 * 			if(p1.data < p2.data)
+	 * 			if (p1.data < p2.data)
 	 * 				p1=p1.next
 	 * 			else
 	 * 				p2=p2.next

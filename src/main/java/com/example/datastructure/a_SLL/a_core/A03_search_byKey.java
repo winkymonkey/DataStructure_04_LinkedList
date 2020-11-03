@@ -3,21 +3,20 @@ package com.example.datastructure.a_SLL.a_core;
 import com.example.datastructure.a_SLL.MyLinkedList;
 import com.example.datastructure.a_SLL.MyLinkedList.Node;
 
+/**
+ * ********************************************************************************
+ * Search an element in a Linked List (Iterative and Recursive)
+ * ********************************************************************************
+ */
 
-public class A02_insertNode {
+public class A03_search_byKey {
 	
 	public static void main(String[] args) {
 		MyLinkedList list = createLinkedList();
 		print(list.head);
 		
-		insertAtFront(list, 25);
-		print(list.head);
-		
-		insertAfterGivenNode(list.head.next.next, 50);
-		print(list.head);
-		
-		insertAtEnd(list, 99);
-		print(list.head);
+		searchNodeByKey(list, 5);
+		searchNodeByKeyRecursive(list.head, 4);
 	}
 	
 	
@@ -48,32 +47,22 @@ public class A02_insertNode {
 	
 	
 	
-	
-	private static void insertAtFront(MyLinkedList list, int newKey) {
-		Node newHead = new Node(newKey);
-		newHead.next = list.head;
-		list.head = newHead;
-	}
-	
-	private static void insertAfterGivenNode(Node refNode, int newKey) {
-		if (refNode==null)
-			System.out.println("reference node cannot be null");
-		else {
-			Node tmpNode = refNode.next;
-			
-			Node newNode = new Node(newKey);
-			refNode.next = newNode;
-			newNode.next = tmpNode;
-		}
-	}
-	
-	private static void insertAtEnd(MyLinkedList list, int newKey) {
+	private static void searchNodeByKey(MyLinkedList list, int key) {
 		Node n = list.head;
-		while (n.next!=null) {
+		while (n != null && n.data!=key) {
 			n = n.next;
 		}
-		Node newNode = new Node(newKey);
-		n.next = newNode;
+		System.out.println(n.data);
+	}
+	
+	private static void searchNodeByKeyRecursive(Node n, int key) {
+		if (n==null)
+			return;
+		
+		if(n.data == key)
+			System.out.println(n.data);
+		else
+			searchNodeByKeyRecursive(n.next, key);
 	}
 	
 }

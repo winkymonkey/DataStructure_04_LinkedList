@@ -13,7 +13,7 @@ public class A02_removeDuplicateFrom_unsortedLinkedList {
 	 * sort the list first
 	 * 
 	 * then traverse the sorted list
-	 * if(node.data == node.next.data)
+	 * if (node.data == node.next.data)
 	 * 		//remove next node
 	 * else
 	 * 		node = node.next;
@@ -24,7 +24,7 @@ public class A02_removeDuplicateFrom_unsortedLinkedList {
 	 * ---USE HASHING---
 	 * -----------------
 	 * traverse the list
-	 * if(hashmap.contains(node.data))
+	 * if (hashmap.contains(node.data))
 	 * 	 //remove that node from list
 	 * else
 	 * 	 hashmap.put(node.data, true);

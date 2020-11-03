@@ -27,14 +27,14 @@ public class A05_find_tripletSum_equalToGivenNumber {
 	 * Sort list3 in descending order	//90->59->20
 	 * 
 	 * Node a = list1.head;
-	 * while(list1 != null) {
+	 * while (list1 != null) {
 	 * 		Node b = list2.head;
 	 * 		Node c = list3.head;
 	 * 		while (b!=null && c!=null) {
-	 * 			if(a.data + b.data + c.data == GivenNumber) {
+	 * 			if (a.data + b.data + c.data == GivenNumber) {
 	 * 				return true;
 	 * 			}
-	 * 			else if(a.data + b.data + c.data < GivenNumber) {
+	 * 			else if (a.data + b.data + c.data < GivenNumber) {
 	 * 				b = b.next;
 	 * 			}
 	 * 			else {

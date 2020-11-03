@@ -9,7 +9,7 @@ public class A01_detectLoop {
 	/*
 	 * traverse the list
 	 * in each iteration mark each node as visited
-	 * if(node.next.visited==true)
+	 * if (node.next.visited==true)
 	 * 	 there is a loop
 	 * else
 	 * 	 node = node.next

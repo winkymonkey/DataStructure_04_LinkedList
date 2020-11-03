@@ -20,7 +20,7 @@ public class B01_sort_bitonicDLL {
 	 * Traverse the DLL
 	 * Find such an element(current) which is smaller than its previous node.
 	 * 
-	 * if(current==null)
+	 * if (current==null)
 	 * 	 //list is already sorted
 	 * else {
 	 * 	 //split the list into two separate lists

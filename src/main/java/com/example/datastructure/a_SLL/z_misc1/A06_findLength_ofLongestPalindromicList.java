@@ -19,8 +19,8 @@ public class A06_findLength_ofLongestPalindromicList {
 	 * count = 2;
 	 * isPalindrome = false;
 	 * 
-	 * while(curr != null && curr.next !=null) {
-	 * 	 if(prev.data == curr.next.data) {
+	 * while (curr != null && curr.next !=null) {
+	 * 	 if (prev.data == curr.next.data) {
 	 * 		isPalindrome = true;
 	 * 		break;
 	 * 	 }
@@ -31,11 +31,11 @@ public class A06_findLength_ofLongestPalindromicList {
 	 * 	 }
 	 * }
 	 * 
-	 * if(!isPalindrome) {
+	 * if (!isPalindrome) {
 	 * 	 //print 'NO'
 	 * }
 	 * else {
-	 * 	 for(i=0 to (2*count-1)) {
+	 * 	 for (i=0 to (2*count-1)) {
 	 * 		//print temp.data
 	 * 		temp = temp.data
 	 * 	 }

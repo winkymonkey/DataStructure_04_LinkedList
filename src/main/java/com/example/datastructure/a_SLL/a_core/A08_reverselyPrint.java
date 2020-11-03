@@ -2,16 +2,22 @@ package com.example.datastructure.a_SLL.a_core;
 
 /**
  * ********************************************************************************
- * Recursive function to print reverse of a Linked List
+ * Print reverse of a Linked List (without actually reversing the list)
  * ********************************************************************************
  */
+
 public class A08_reverselyPrint {
 	/*
-	 * printReverse(list, node){
-	 * 	 if(node==null)
-	 * 		return;
-	 * 	 printReverse(list, node.next);
-	 * 	 System.out.println(node.key);
+	 * main() {
+	 *    printReverse(list, list.head);
+	 * }
+	 * 
+	 * printReverse(list, node) {
+	 * 	  if (node==null)
+	 * 	     return;
+	 * 	  
+	 *    printReverse(list, node.next);
+	 * 	  print node.data;
 	 * }
 	 * 
 	 */

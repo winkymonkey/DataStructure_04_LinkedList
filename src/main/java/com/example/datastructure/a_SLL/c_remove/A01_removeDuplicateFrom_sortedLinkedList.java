@@ -8,7 +8,7 @@ package com.example.datastructure.a_SLL.c_remove;
 public class A01_removeDuplicateFrom_sortedLinkedList {
 	/*
 	 * traverse the list
-	 * if(node.data == node.next.data)
+	 * if (node.data == node.next.data)
 	 * 		//remove next node
 	 * else
 	 * 		node = node.next;

@@ -5,6 +5,7 @@ package com.example.datastructure.a_SLL.a_core;
  * Write a function to delete a Linked List
  * ********************************************************************************
  */
+
 public class A09_deleteList {
 	/*
 	 * traverse the list (use two pointers p1, p2)

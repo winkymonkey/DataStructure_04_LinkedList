@@ -43,17 +43,17 @@ public class A07_reverseList {
 	
 	
 	private static void reverse(MyLinkedList list) {
-		Node prev = null;
-        Node current = list.head;
-        Node next = null;
-        
-        while (current != null) {
-        	next = current.next;
-        	current.next = prev;
-        	prev = current;
-        	current = next;
-        }
-        list.head = prev;			//prev is the new head
+		Node PREV = null;
+		Node CURR = list.head;
+		Node NEXT = null;
+
+		while (CURR != null) {
+			NEXT = CURR.next;
+			CURR.next = PREV;
+			PREV = CURR;
+			CURR = NEXT;
+		}
+		list.head = PREV; 			// prev is the new head
 	}
 	
 }

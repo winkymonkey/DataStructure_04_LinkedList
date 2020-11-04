@@ -2,7 +2,7 @@ package com.example.datastructure.a_SLL;
 
 
 public class MyLinkedList {
-	public Node head;  			// head of list
+	public Node head;  				// head of list
 	
 	public static class Node {		//This inner class is made static so that main() can access it
 		public int data;

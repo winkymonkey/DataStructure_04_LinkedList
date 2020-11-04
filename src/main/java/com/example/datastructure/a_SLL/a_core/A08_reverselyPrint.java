@@ -13,7 +13,7 @@ public class A08_reverselyPrint {
 	 * }
 	 * 
 	 * printReverse(list, node) {
-	 * 	  if (node==null)
+	 * 	  if (node == null)
 	 * 	     return;
 	 * 	  
 	 *    printReverse(list, node.next);

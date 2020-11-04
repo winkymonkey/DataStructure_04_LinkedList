@@ -5,7 +5,8 @@ package com.example.datastructure.c_CLL.z_misc;
  * Split a Circular Linked List into two halves
  * *****************************************************************************
  */
-public class C01_splitIntoTwoHalves {
+
+public class ZA01_splitIntoTwoHalves {
 	/*
 	 * Traverse the CLL using 2 pointers.
 	 * In each iteration, slow pointer increment by 1, whereas fast pointer increments by 2

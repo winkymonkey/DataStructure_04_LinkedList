@@ -1,5 +1,6 @@
 package com.example.datastructure.b_DLL.a_core;
 
-public class B04_deleteNode_atGivenPosition {
+
+public class A04_deleteNode_atGivenPosition {
 
 }

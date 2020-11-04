@@ -2,11 +2,10 @@ package com.example.datastructure.b_DLL.a_core;
 
 /**
  * *****************************************************************************
- * Reverse a Doubly Linked List
+ * Swap Kth node from beginning with Kth node from end in a Linked List
  * *****************************************************************************
  */
-public class B07_reverseList {
-	/*
-	 * 
-	 */
+
+public class A06_swapNodes {
+
 }

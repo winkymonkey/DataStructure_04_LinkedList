@@ -2,7 +2,7 @@ package com.example.datastructure.b_DLL.z_misc;
 
 /**
  * *****************************************************************************
- * Sort the biotonic doubly linked list
+ * Sort the bitonic doubly linked list
  * *****************************************************************************
  * Input:  2 <-> 5 <-> 7 <-> 12 <-> 10 <-> 6 <-> 4 <-> 1 
  * Output: 1 <-> 2 <-> 4 <-> 5 <-> 6 <-> 7 <-> 10 <-> 12 
@@ -12,7 +12,8 @@ package com.example.datastructure.b_DLL.z_misc;
  * 
  * *****************************************************************************
  */
-public class B01_sort_bitonicDLL {
+
+public class ZA01_sort_bitonicDLL {
 	/*
 	 * Bitonic -- a DLL which is first increasing and then decreasing.
 	 * 

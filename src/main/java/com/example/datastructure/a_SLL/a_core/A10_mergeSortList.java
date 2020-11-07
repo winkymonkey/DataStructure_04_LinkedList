@@ -7,6 +7,16 @@ import com.example.datastructure.a_SLL.MyLinkedList.Node;
 public class A10_mergeSortList {
 	
 	public static void main(String[] args) {
+		MyLinkedList list = createLinkedList();
+        print(list.head);
+        
+        list.head = mergeSort(list.head);
+		print(list.head);
+	}
+	
+	
+	
+	private static MyLinkedList createLinkedList() {
 		MyLinkedList list = new MyLinkedList();
 		list.head = new Node(2);
         list.head.next = new Node(3);
@@ -14,11 +24,21 @@ public class A10_mergeSortList {
         list.head.next.next.next = new Node(5);
         list.head.next.next.next.next = new Node(10);
         list.head.next.next.next.next.next = new Node(15);
-		
-        printList(list.head);
-        list.head = mergeSort(list.head);
-		printList(list.head);
+		return list;
 	}
+	
+	
+	private static void print(Node n) {
+		while (n != null) {
+			System.out.print(n.data + " ");
+			n = n.next;
+		}
+		System.out.println();
+	}
+	
+	
+	
+	
 	
 	
 	private static Node mergeSort(Node n) {
@@ -40,12 +60,12 @@ public class A10_mergeSortList {
 	
 	
 	private static Node merge(Node a, Node b) {
-		Node head = null;
 		if (a == null)
 			return b;
 		if (b == null)
 			return a;
 
+		Node head = null;
 		if (a.data <= b.data) {
 			head = a;
 			head.next = merge(a.next, b);
@@ -58,27 +78,18 @@ public class A10_mergeSortList {
 	}
 	
 	
-	
-	
 	private static Node getMiddle(Node n) {
 		if (n == null)
 			return n;
 
-		Node slow = n; 
-		Node fast = n;
+		Node p1 = n; 
+		Node p2 = n;
 
-		while (fast.next != null && fast.next.next != null) {
-			slow = slow.next;
-			fast = fast.next.next;
+		while (p2.next != null && p2.next.next != null) {
+			p1 = p1.next;
+			p2 = p2.next.next;
 		}
-		return slow;
+		return p1;
 	}
-
-	private static void printList(Node n) {
-		while (n != null) {
-			System.out.print(n.data + " ");
-			n = n.next;
-		}
-		System.out.println();
-	}
+	
 }

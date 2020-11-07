@@ -8,14 +8,25 @@ package com.example.datastructure.a_SLL.b_search;
 
 public class B02_find_middleNode {
 	/*
-	 * traverse the list (use two pointers p1, p2)
+	 * Traverse the list using two pointers p1, p2 
+	 * where p1 proceeds one node per iteration and p2 proceeds two nodes per iteration
+	 * Hence as soon as p2 reach end of the list, p1 will be able to reach only till mid point
 	 * 
-	 * while (p2!=null && p2.next!=null) {
-	 *    p1 = p1.next;
-	 * 	  p2 = p2.next.next;
+	 * 
+	 * 
+	 * ----------
+	 * private static void findMiddle(MyLinkedList list) {
+	 *    Node p1 = list.head;
+	 *    Node p2 = list.head;
+	 *    
+	 *    if (p1==null)
+	 *       return null;
+	 *    
+	 *    while (p2.next!=null && p2.next.next!=null) {
+	 *       p1 = p1.next;
+	 *       p2 = p2.next.next;
+	 *    }
 	 * }
-	 * p2 now points to end node
-	 * p1 now points to middle node
 	 * 
 	 */
 }

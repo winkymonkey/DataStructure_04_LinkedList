@@ -42,20 +42,15 @@ public class A10_mergeSortList {
 	
 	
 	private static Node mergeSort(Node n) {
-		if (n == null || n.next == null) {
+		if (n == null || n.next == null)
 			return n;
-		}
-
-		Node middle = getMiddle(n);				// get the middle element of the list
-		Node nextOfMiddle = middle.next;		// it will become the starting point of right part of the list
-
-		middle.next = null;						// it divides the list in 2 parts (left list & right list)
 		
-		Node left = mergeSort(n);				// apply mergeSort on left list
-		Node right = mergeSort(nextOfMiddle);	// apply mergeSort on right list
-
-		Node newHead = merge(left, right);		// merge left list & right list
-		return newHead;
+		Node middle = getMiddle(n);
+		Node leftHead = n;
+		Node rightHead = middle.next;
+		middle.next = null;
+		
+		return merge(mergeSort(leftHead), mergeSort(rightHead));
 	}
 	
 	

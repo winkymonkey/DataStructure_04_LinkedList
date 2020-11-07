@@ -20,7 +20,6 @@ public class A02_insertNode {
 		print(list.head);
 	}
 	
-	
 	private static MyLinkedList createLinkedList() {
 		MyLinkedList list = new MyLinkedList();
 		list.head = new Node(1);
@@ -33,7 +32,6 @@ public class A02_insertNode {
         list.head.next.next.next.next.next.next.next = new Node(8);
 		return list;
 	}
-	
 	
 	private static void print(Node n) {
 		while (null != n) {

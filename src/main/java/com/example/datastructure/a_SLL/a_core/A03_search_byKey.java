@@ -19,7 +19,6 @@ public class A03_search_byKey {
 		searchNodeByKeyRecursive(list.head, 4);
 	}
 	
-	
 	private static MyLinkedList createLinkedList() {
 		MyLinkedList list = new MyLinkedList();
 		list.head = new Node(1);
@@ -33,7 +32,6 @@ public class A03_search_byKey {
 		return list;
 	}
 	
-	
 	private static void print(Node n) {
 		while (null != n) {
 			System.out.print(n.data + " ");
@@ -41,6 +39,7 @@ public class A03_search_byKey {
 		}
 		System.out.println();
 	}
+	
 	
 	
 	

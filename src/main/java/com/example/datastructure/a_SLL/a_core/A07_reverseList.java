@@ -14,7 +14,6 @@ public class A07_reverseList {
 		print(list.head);
 	}
 	
-	
 	private static MyLinkedList createLinkedList() {
 		MyLinkedList list = new MyLinkedList();
 		list.head = new Node(1);
@@ -28,7 +27,6 @@ public class A07_reverseList {
 		return list;
 	}
 	
-	
 	private static void print(Node n) {
 		while (n != null) {
 			System.out.print(n.data + " ");
@@ -36,6 +34,7 @@ public class A07_reverseList {
 		}
 		System.out.println();
 	}
+	
 	
 	
 	

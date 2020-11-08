@@ -43,7 +43,7 @@ public class H04_findLength_ofLongestPalindromicList {
 	 *    }
 	 * }
 	 * 
-	 * void countCommon(Node a, Node b) {
+	 * int countCommon(Node a, Node b) {
 	 *    while(a!=null && b!=null) {
 	 *       if (a.data == b.data)
 	 *          count++
@@ -52,6 +52,7 @@ public class H04_findLength_ofLongestPalindromicList {
 	 *       a = a.next;
 	 *       b = b.next;
 	 *    }
+	 *    return count;
 	 * }
 	 * 
 	 */

@@ -58,7 +58,7 @@ public class A03_search_byKey {
 		if (n==null)
 			return;
 		
-		if(n.data == key)
+		if (n.data == key)
 			System.out.println(n.data);
 		else
 			searchNodeByKeyRecursive(n.next, key);
